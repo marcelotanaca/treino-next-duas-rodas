@@ -7,7 +7,7 @@ export default function Header() {
       <img src="/logo.png" alt="Logo"/> 
       <a href="/">HOME</a>
       <a href="/produtos">PRODUTOS</a>
-      <a href="#">CONTATO</a>
+      <a href="/contato">CONTATO</a>
       
     </header>
 
