@@ -3,66 +3,92 @@
 }
 
 .texto1 {
+    font-family: Montserrat, sans-serif;
     text-shadow: 10px 10px 10px #000000;
     text-align: center;
-    font-weight: 600;
+    font-weight: 200;
     font-size: 2em;
     margin-top: 30px;  
 }
 
 .imgmoto2 {
-  width: 8rem;
+  width: 100%;
   background: #fdfdfd;
   margin: 45px 40px 0 180px;
-  display: flexbox;
-    
+  display: flex;
+  align-items: center;
   
   
-
-  p {
+  
+  ul {
+    font-family: Montserrat, sans-serif;
     margin: 30px;
-    line-height: 35px;
+    line-height: 10px;
     background: #fefefe;
     font-size: 22px;
     font-style: italic;
   }
 }
 
-
-
-/*export const Texto1 = styled.h2`
-  text-shadow: 10px 10px 10px #000000;
-  text-align: center;
-  font-weight: 600;
-  font-size: 2em;
-  margin-top: 30px;
-`;
-
-export const Texto2 = styled.p`
-  margin: 30px;
-  line-height: 35px;
-  background: #fefefe;
-  font-size: 22px;
-  font-style: italic;
-`;
-export const Section = styled.section`
+.section {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   background: linear-gradient(#fefefe, #888888);
-`;
+  font-family: Montserrat, sans-serif;
+  
+  .texto3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+    margin-top: 70px;
+  }
+  .texto4 {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .texto5 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+    margin-top: 50px;
+  }
+  .listacredenciada {
+    display:flex;
+    align-items: center;
+    line-height: 8px;
+    .tip {
+      font-weight: bold;
+    }
+    .tip:before {
+      content: "🏍️ ";
+    }
+    .tip1:before {
+      content: "🏍️ ";
+    }
+    .imgoficina {
+      box-shadow: 20px -20px 10px #000000;
+      margin-left: 60px;
+    }
+  }
+  .video {
+    width: 560px;
+    height: 315px;
+    margin-bottom: 50px;
+  }
+}
 
-export const Texto3 = styled.p`
-  text-align: center;
-  font-weight: 600;
-  font-size: 2em;
-  margin-top: 50px;
-`;
-export const Texto4 = styled.p`
-  text-align: center;
-  margin: 40px;
-  font-size: 22px;
-`;
+
+
+
+
+
+
+
+/*
+
 
 export const ListaCredenciada = styled.div`
   margin-top: 40px;
