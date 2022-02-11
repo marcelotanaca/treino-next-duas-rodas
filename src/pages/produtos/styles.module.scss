@@ -1,0 +1,140 @@
+.produtos {
+  font-family: 'Montserrat', sans-serif;
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  a {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px #000000 solid;
+    border-radius: 10px;
+    color: #000000;
+    text-decoration: none;
+    
+    &:hover {
+      border-color: red;
+
+      h2 {
+       font-size: 40px;
+      }
+    }    
+
+    &:active{
+      color: darkblue;
+    }
+  }
+  .produtodesc1 {
+    font-size: 15px;
+  }
+  .produtodesc {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }  
+}
+
+/*
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px #000000 solid;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border-color: chartreuse;
+}
+.produtos li:active{
+    color: darkblue;
+}
+.produtos li:hover h2 {
+    font-size: 40px;
+}
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos-desc1 {
+    font-size: 15px;
+}
+.produtos-desc {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    background: url(lg.jpg);
+    padding: 29px 0;
+}
+.copyright {
+    font-size: 12px;
+    color: goldenrod;
+    margin: 63px;
+}
+.main-contato {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.imput-padrao {
+    display: block;
+    margin:  0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 1s background;
+}
+.enviar:hover {
+    background: springgreen;
+    transform: scale(1.2);
+}
+table {
+    margin: 20px 0 40px;
+}
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}*/
