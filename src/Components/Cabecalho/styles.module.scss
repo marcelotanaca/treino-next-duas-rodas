@@ -1,0 +1,33 @@
+.StyledHeader {
+  background-color: #cccccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15vw;
+  height: 43vh;
+  align-items: center;
+
+  img {
+    height: 225px;
+    width: 225px;  
+  }
+  a {
+    text-align: center;
+    padding: 5px 20px;
+    margin: 0 10px;
+    font-weight: 700;
+    color: #000;
+    text-decoration:none;
+  }
+}
+
+
+
+
+.BtnCabecalho {
+  text-align: center;
+  padding: 5px 20px;
+  margin: 0 10px;
+  font-weight: 700;
+  color: #000;
+  text-decoration:none;
+}

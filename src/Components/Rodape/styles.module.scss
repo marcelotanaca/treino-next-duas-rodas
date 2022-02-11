@@ -1,0 +1,19 @@
+
+.Rodape {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../../public/lg.jpg);
+
+  img {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 12px;
+    color: goldenrod;
+    margin-bottom: 5rem;
+  }
+}
